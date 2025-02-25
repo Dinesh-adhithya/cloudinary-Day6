@@ -1,0 +1,20 @@
+erver:
+  port: 5000
+
+spring:
+  application:
+    name: sample-application
+  datasource:
+    url: jdbc:mysql://localhost:3306/accountdb
+    username: root
+    password: Dinesh@12122002
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+cloudinary:
+  cloud_name: dj5pvhzkg
+  api_key: 578848245475991
+  api_secret: RWqYm-vaGJZQPVsbEfzb7mYzulI
