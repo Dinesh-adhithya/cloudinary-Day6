@@ -5,7 +5,7 @@ spring:
   application:
     name: sample-application
   datasource:
-    url: jdbc:mysql://localhost:3306/accountdb
+    url: jdbc:mysql://db:3306/accountdb
     username: root
     password: Dinesh@12122002
     driver-class-name: com.mysql.cj.jdbc.Driver
