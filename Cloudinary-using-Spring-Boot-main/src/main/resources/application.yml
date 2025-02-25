@@ -1,4 +1,4 @@
-erver:
+server:
   port: 5000
 
 spring:
