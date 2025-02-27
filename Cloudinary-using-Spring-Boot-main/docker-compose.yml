@@ -4,8 +4,8 @@ services:
   app:
     image: sharath/springbootcloudinary
     build:
-      context: src
-      dockerfile: src/Dockerfile
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "5000:5000"
     environment:
